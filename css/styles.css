@@ -1,0 +1,385 @@
+
+
+/* -----------DEFAULT HTML CLASSES----------- */
+
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 150px;
+}
+
+h2 {
+  font-family: 'Bellefair', serif;
+  font-size: 100px;
+}
+
+h3 {
+  font-family: 'Bellefair', serif;
+  font-size: 56px;
+}
+
+h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 32px;
+}
+
+h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #D0D6F9;
+  font-size: 16px;
+}
+
+
+/* -----------ALL PAGE GENERIC CLASSES----------- */
+
+
+.nav-generic-desktop {
+  margin-left: 630px;
+  text-align: center;
+  background-color: white;
+  background-color: rgba(255,255,255,0.08);
+  padding: 30px 100px 30px 100px;
+}
+
+.nav-generic-desktop a {
+  color: white;
+  text-decoration: none;
+  margin: 0 50px 0;
+}
+
+.nav-generic-desktop a:hover {
+  border-bottom: 2px solid #D3D3D3;
+  padding-bottom: 28px;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 28px;
+}
+
+.img-star-generic-desktop {
+  margin: 0;
+  position: relative;
+  top: 70px;
+  left: 60px;
+}
+
+.hr-generic-desktop {
+  border-style: none;
+  border-top-style: solid;
+  border-top-color: grey;
+  position: absolute;
+  top: 85px;
+  width: 510px;
+  right: 854px;
+}
+
+.h5-generic-desktop {                         /* APPICABLE TO ALL PAGES EXCEPT INDEX */
+  position: absolute;
+  margin-left: 170px;
+  top: 100px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+}
+
+.h5-generic-desktop strong {                  /* APPICABLE TO ALL PAGES EXCEPT INDEX */
+  color: #40444a;
+}
+
+
+/* -----------INDEX PAGE CLASSES----------- */
+
+
+.body-index-desktop {
+  height: 100%;
+  width: 100%;
+  background-image: url("D:/IMP Stuff/Web Development/Space Tourism Website/space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/edited-images/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-explore-index-desktop {
+  position: absolute;
+  top: 300px;
+  left: 1130px;
+  background: white;
+  border-radius: 50%;
+  font-family: 'Bellefair', serif;
+  color: #0B0D17;
+  font-size: 32px;
+  padding: 90px 70px;
+  text-decoration: none;
+}
+
+.btn-explore-index-desktop:hover {
+  background: grey;
+}
+
+.h5-index-desktop {
+  position: relative;
+  top: 60px;
+  margin-left: 150px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  color: #D0D6F9;
+}
+
+.h1-index-desktop {
+  position: absolute;
+  /* top: 30px; */
+  bottom: 140px;
+  margin-left: 140px;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+.p-index-desktop {
+  position: absolute;
+  color: #D0D6F9;
+  width: 28rem;
+  bottom: 110px;
+  left: 150px;
+  line-height: 26px;
+  word-spacing: 2px;
+  font-weight: lighter;
+}
+
+
+/* -----------DESTINATION PAGE CLASSES----------- */
+
+
+.body-destination-desktop {
+  height: 100%;
+  width: 100%;
+  background-image: url("D:/IMP Stuff/Web Development/Space Tourism Website/space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/edited-images/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-destination-desktop {
+  margin-top: 100px;
+  margin-left: 800px;
+}
+
+.nav-destination-desktop a {
+  text-decoration: none;
+  margin: 0 20px 0;
+}
+
+.nav-destination-desktop a:hover {
+  border-bottom: 2px solid #D3D3D3;
+  padding-bottom: 15px;
+}
+
+.active-destination-desktop {
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+}
+
+.hr-destination-desktop {
+  border-style: none;
+  border-top-style: solid;
+  border-top-color: grey;
+  position: absolute;
+  bottom: 135px;
+  width: 500px;
+  right: 220px;
+}
+
+.tr1-destination-desktop {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  color: #D0D6F9;
+}
+
+.tr2-destination-desktop {
+  font-family: 'Bellefair', serif;
+  font-size: 28px;
+  color: white;
+}
+
+.table-destination-desktop {
+  border-spacing: 100px 20px;
+  position: absolute;
+  bottom: 30px;
+  right: 230px;
+}
+
+.img-destination-desktop {
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+  float: left;
+}
+
+.h2-destination-desktop {
+  position: absolute;
+  top: 220px;
+  margin-left: 810px;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+.p-destination-desktop {
+  position: absolute;
+  bottom: 170px;
+  right: 270px;
+  width: 28rem;
+  color: #D0D6F9;
+  line-height: 26px;
+  word-spacing: 2px;
+  font-weight: lighter;
+}
+
+
+/* -----------CREW PAGE CLASSES----------- */
+
+
+.body-crew-desktop {
+  height: 100%;
+  width: 100%;
+  background-image: url("D:/IMP Stuff/Web Development/Space Tourism Website/space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/edited-images/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-crew-desktop {
+  position: absolute;
+  top: 181px;
+  right: 270px;
+  height: 540px;
+  width: 400px;
+  float: right;
+}
+
+.h4-crew-desktop {
+  position: absolute;
+  top: 260px;
+  left: 170px;
+  color: #828282;
+}
+
+.h3-crew-desktop {
+  position: absolute;
+  bottom: 240px;
+  left: 165px;
+  color: white;
+  font-weight: lighter;
+}
+
+.p-crew-desktop {
+  position: absolute;
+  bottom: 160px;
+  left: 170px;
+  width: 28rem;
+  color: #D0D6F9;
+  line-height: 26px;
+  word-spacing: 2px;
+  font-weight: lighter;
+}
+
+.nav-crew-desktop a {
+  position: relative;
+  top: 500px;
+  left: 165px;
+  display: inline-block;
+  margin: 0 6px 0;
+  height: 12px;
+  width: 12px;
+  background: #40444a;
+  border-radius: 50%;
+}
+
+.nav-crew-desktop a:hover {
+  background: #828282
+}
+
+
+/* -----------TECHNOLOGY PAGE CLASSES----------- */
+
+
+.body-technology-desktop {
+  height: 100%;
+  width: 100%;
+  background-image: url("D:/IMP Stuff/Web Development/Space Tourism Website/space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/edited-images/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-technology-desktop {
+  position: absolute;
+  right: 140px;
+  bottom: 60px;
+  height: 450px;
+  float: right;
+}
+
+.h5-technology-desktop {
+  font-size: 16px;
+  position: absolute;
+  top: 250px;
+  left: 325px;
+  color: #D0D6F9;
+  font-weight: lighter;
+  letter-spacing: 2.35px;
+}
+
+.h3-technology-desktop {
+  position: absolute;
+  top: 260px;
+  left: 325px;
+  color: white;
+  font-weight: lighter;
+}
+
+.p-technology-desktop {
+  position: absolute;
+  top: 380px;
+  left: 325px;
+  color: #D0D6F9;
+  line-height: 26px;
+  word-spacing: 2px;
+  font-weight: lighter;
+  width: 28rem;
+}
+
+.nav-technology-desktop {
+  position: absolute;
+  top: 300px;
+  left: 170px;
+}
+
+.nav-technology-desktop a {
+  background: #0B0D17;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #40444a;
+  font-family: 'Bellefair', serif;
+  color: white;
+  font-size: 32px;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.nav-technology-desktop a:hover {
+  border-color: white;
+}
